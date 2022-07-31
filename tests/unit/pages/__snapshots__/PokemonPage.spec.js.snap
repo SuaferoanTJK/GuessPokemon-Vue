@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pokemon Unit Testing snapshot must be matched 1`] = `
+<!-- Lifes -->
+<div data-test="lifes" class="h-[10vh] px-4 flex items-center">
+  <p class="text-lg font-semibold mr-2">Lifes:</p>
+  <ul class="flex items-center">
+    <li><img src="" alt="life" class="w-10"></li>
+    <li><img src="" alt="life" class="w-10"></li>
+    <li><img src="" alt="life" class="w-10"></li>
+  </ul>
+</div>
+<div class="min-h-[90vh] flex flex-col justify-center">
+  <div class="px-4 md:w-1/2 mx-auto">
+    <!-- Title -->
+    <div data-test="title" class="flex justify-center text-center">
+      <h1 class="text-3xl font-bold text-secondary"> Who is this <span class="flex items-center gap-2"><img src="" alt="PokemonLogo" class="w-60"><p class="text-7xl">?</p></span></h1>
+    </div><!-- Loader -->
+    <div data-test="loader" class="mt-5 flex justify-center">
+      <div class="lds-default">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pokemon Unit Testing snapshot must be matched when pokemons are loaded 1`] = `
+<!-- Lifes -->
+<div data-test="lifes" class="h-[10vh] px-4 flex items-center">
+  <p class="text-lg font-semibold mr-2">Lifes:</p>
+  <ul class="flex items-center">
+    <li><img src="" alt="life" class="w-10"></li>
+    <li><img src="" alt="life" class="w-10"></li>
+    <li><img src="" alt="life" class="w-10"></li>
+  </ul>
+</div>
+<div class="min-h-[90vh] flex flex-col justify-center">
+  <div class="px-4 md:w-1/2 mx-auto">
+    <!-- Title -->
+    <div data-test="title" class="flex justify-center text-center">
+      <h1 class="text-3xl font-bold text-secondary"> Who is this <span class="flex items-center gap-2"><img src="" alt="PokemonLogo" class="w-60"><p class="text-7xl">?</p></span></h1>
+    </div><!-- Loader -->
+    <!-- Game -->
+    <div class="my-5"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Pokemon" class="mx-auto h-64 object-contain transition-all duration-700 brightness-0">
+      <!--v-if-->
+      <div class="mt-10 grid md:grid-cols-2 gap-4"><button class="rounded text-lg capitalize text-white hover:font-semibold bg-tertiary p-2 opacity-80 hover:opacity-100 cursor-pointer w-full shadow-md">bulbasaur</button><button class="rounded text-lg capitalize text-white hover:font-semibold bg-tertiary p-2 opacity-80 hover:opacity-100 cursor-pointer w-full shadow-md">ivysaur</button><button class="rounded text-lg capitalize text-white hover:font-semibold bg-tertiary p-2 opacity-80 hover:opacity-100 cursor-pointer w-full shadow-md">venusaur</button><button class="rounded text-lg capitalize text-white hover:font-semibold bg-tertiary p-2 opacity-80 hover:opacity-100 cursor-pointer w-full shadow-md">charmander</button></div>
+      <!--v-if-->
+    </div>
+  </div>
+</div>
+`;

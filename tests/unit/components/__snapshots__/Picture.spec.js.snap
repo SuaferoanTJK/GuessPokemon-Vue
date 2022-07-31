@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Picture Unit Testing snapshot must be matched 1`] = `<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Pokemon" class="mx-auto h-64 object-contain transition-all duration-700 brightness-0">`;
